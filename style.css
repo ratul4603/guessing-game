@@ -1,0 +1,67 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.game{
+    background-color:aqua;
+    height:300px;
+    width:450px;
+    margin:100px auto;
+    padding:20px;
+    border:solid 1px black;
+    box-shadow:3px 3px 6px cadetblue;
+    border-radius:7px;
+    text-align:center;
+}
+.game:hover{
+    box-shadow:5px 5px 10px black;
+    transition:all .1s linear;
+}
+.game .title{
+    text-align:center;
+    margin-bottom:30px;
+    color:blue;
+    font-weight:900;
+}
+.body form label{
+    color:black;
+    word-spacing:2px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.body form input{
+    width:150px;
+    padding: 5px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+}
+.body form .btn{
+    text-align:right;
+    margin:20px 15px;
+}
+.body form .btn button{
+    border:none;
+    outline:none;
+    font-size:15px;
+    padding:5px;
+    border-radius:7px;
+    background-color:black;
+    color:white;
+    font-weight:600;
+}
+.body form .btn button:hover{
+    background-color:tomato;
+    color:black;
+}
+
+.totRes{
+    font-size:20px;
+    font-weight:500;
+    margin:15px;
+}
+.atmpt{
+    margin:10px;
+}
